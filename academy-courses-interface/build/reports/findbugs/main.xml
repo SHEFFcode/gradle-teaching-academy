@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1553913408971" analysisTimestamp="1553913408996" release="">
+  <Project projectName="">
+    <Jar>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-courses-interface/build/classes/java/main</Jar>
+    <AuxClasspathEntry>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-shared/build/classes/java/main</AuxClasspathEntry>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-courses-interface/src/main/java/com/denofprogramming/repository/CourseRepositoryInterface.java</SrcDir>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-courses-interface/src/main/java/com/denofprogramming/controller/CourseControllerInterface.java</SrcDir>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-courses-interface/src/main/java/com/denofprogramming/model/Course.java</SrcDir>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-courses-interface/src/main/java/com/denofprogramming/service/CourseServiceInterface.java</SrcDir>
+  </Project>
+  <BugInstance type="EQ_DOESNT_OVERRIDE_EQUALS" priority="2" rank="17" abbrev="Eq" category="STYLE">
+    <Class classname="com.denofprogramming.model.Course">
+      <SourceLine classname="com.denofprogramming.model.Course" start="10" end="23" sourcefile="Course.java" sourcepath="com/denofprogramming/model/Course.java"/>
+    </Class>
+    <SourceLine classname="com.denofprogramming.model.Course" start="1" end="1" startBytecode="0" endBytecode="0" sourcefile="Course.java" sourcepath="com/denofprogramming/model/Course.java"/>
+    <Method classname="com.denofprogramming.model.DomainObject" name="equals" signature="(Ljava/lang/Object;)Z" isStatic="false" role="METHOD_DID_YOU_MEAN_TO_OVERRIDE">
+      <SourceLine classname="com.denofprogramming.model.DomainObject" start="30" end="42" startBytecode="0" endBytecode="192" sourcefile="DomainObject.java" sourcepath="com/denofprogramming/model/DomainObject.java"/>
+    </Method>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 29 Mar 2019 19:36:48 -0700" total_classes="4" referenced_classes="18" total_bugs="1" total_size="15" num_packages="4" java_version="1.8.0_202" vm_version="25.202-b05" cpu_seconds="4.59" clock_seconds="1.02" peak_mbytes="108.63" alloc_mbytes="455.50" gc_seconds="0.02" priority_2="1">
+    <PackageStats package="com.denofprogramming.controller" total_bugs="0" total_types="1" total_size="1">
+      <ClassStats class="com.denofprogramming.controller.CourseControllerInterface" sourceFile="CourseControllerInterface.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.denofprogramming.model" total_bugs="1" total_types="1" total_size="12" priority_2="1">
+      <ClassStats class="com.denofprogramming.model.Course" sourceFile="Course.java" interface="false" size="12" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <PackageStats package="com.denofprogramming.repository" total_bugs="0" total_types="1" total_size="1">
+      <ClassStats class="com.denofprogramming.repository.CourseRepositoryInterface" sourceFile="CourseRepositoryInterface.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.denofprogramming.service" total_bugs="0" total_types="1" total_size="1">
+      <ClassStats class="com.denofprogramming.service.CourseServiceInterface" sourceFile="CourseServiceInterface.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="175" invocations="311" avgMicrosecondsPerInvocation="564" maxMicrosecondsPerInvocation="14131" standardDeviationMircosecondsPerInvocation="1399"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="137" invocations="317" avgMicrosecondsPerInvocation="434" maxMicrosecondsPerInvocation="2675" standardDeviationMircosecondsPerInvocation="254"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="42" invocations="18" avgMicrosecondsPerInvocation="2337" maxMicrosecondsPerInvocation="11747" standardDeviationMircosecondsPerInvocation="3551"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="36" invocations="66" avgMicrosecondsPerInvocation="546" maxMicrosecondsPerInvocation="4155" standardDeviationMircosecondsPerInvocation="720"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="32" invocations="4" avgMicrosecondsPerInvocation="8161" maxMicrosecondsPerInvocation="31762" standardDeviationMircosecondsPerInvocation="13626"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="29" invocations="279" avgMicrosecondsPerInvocation="105" maxMicrosecondsPerInvocation="1957" standardDeviationMircosecondsPerInvocation="200"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="26" invocations="18" avgMicrosecondsPerInvocation="1467" maxMicrosecondsPerInvocation="11528" standardDeviationMircosecondsPerInvocation="2765"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="26" invocations="36" avgMicrosecondsPerInvocation="727" maxMicrosecondsPerInvocation="15625" standardDeviationMircosecondsPerInvocation="2600"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="19" invocations="18" avgMicrosecondsPerInvocation="1092" maxMicrosecondsPerInvocation="8498" standardDeviationMircosecondsPerInvocation="2027"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="17" invocations="18" avgMicrosecondsPerInvocation="964" maxMicrosecondsPerInvocation="5653" standardDeviationMircosecondsPerInvocation="1486"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="16" invocations="18" avgMicrosecondsPerInvocation="930" maxMicrosecondsPerInvocation="9152" standardDeviationMircosecondsPerInvocation="2082"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

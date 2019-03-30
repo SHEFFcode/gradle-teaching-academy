@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1553913402110" analysisTimestamp="1553913402137" release="">
+  <Project projectName="">
+    <Jar>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-audit-interface/build/classes/java/main</Jar>
+    <AuxClasspathEntry>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-shared/build/classes/java/main</AuxClasspathEntry>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-audit-interface/src/main/java/com/denofprogramming/repository/AuditRepositoryInterface.java</SrcDir>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-audit-interface/src/main/java/com/denofprogramming/controller/AuditControllerInterface.java</SrcDir>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-audit-interface/src/main/java/com/denofprogramming/model/AuditDetail.java</SrcDir>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-audit-interface/src/main/java/com/denofprogramming/service/AuditServiceInterface.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 29 Mar 2019 19:36:42 -0700" total_classes="4" referenced_classes="17" total_bugs="0" total_size="6" num_packages="4" java_version="1.8.0_202" vm_version="25.202-b05" cpu_seconds="3.87" clock_seconds="0.86" peak_mbytes="108.13" alloc_mbytes="455.50" gc_seconds="0.02">
+    <PackageStats package="com.denofprogramming.controller" total_bugs="0" total_types="1" total_size="1">
+      <ClassStats class="com.denofprogramming.controller.AuditControllerInterface" sourceFile="AuditControllerInterface.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.denofprogramming.model" total_bugs="0" total_types="1" total_size="3">
+      <ClassStats class="com.denofprogramming.model.AuditDetail" sourceFile="AuditDetail.java" interface="false" size="3" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.denofprogramming.repository" total_bugs="0" total_types="1" total_size="1">
+      <ClassStats class="com.denofprogramming.repository.AuditRepositoryInterface" sourceFile="AuditRepositoryInterface.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.denofprogramming.service" total_bugs="0" total_types="1" total_size="1">
+      <ClassStats class="com.denofprogramming.service.AuditServiceInterface" sourceFile="AuditServiceInterface.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="142" invocations="296" avgMicrosecondsPerInvocation="480" maxMicrosecondsPerInvocation="14723" standardDeviationMircosecondsPerInvocation="1201"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="109" invocations="302" avgMicrosecondsPerInvocation="362" maxMicrosecondsPerInvocation="861" standardDeviationMircosecondsPerInvocation="175"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="34" invocations="1" avgMicrosecondsPerInvocation="34102" maxMicrosecondsPerInvocation="34102" standardDeviationMircosecondsPerInvocation="0"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="33" invocations="17" avgMicrosecondsPerInvocation="1974" maxMicrosecondsPerInvocation="11077" standardDeviationMircosecondsPerInvocation="3361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="29" invocations="39" avgMicrosecondsPerInvocation="768" maxMicrosecondsPerInvocation="6153" standardDeviationMircosecondsPerInvocation="1058"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="25" invocations="264" avgMicrosecondsPerInvocation="96" maxMicrosecondsPerInvocation="1641" standardDeviationMircosecondsPerInvocation="197"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="22" invocations="17" avgMicrosecondsPerInvocation="1336" maxMicrosecondsPerInvocation="9118" standardDeviationMircosecondsPerInvocation="2379"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="21" invocations="34" avgMicrosecondsPerInvocation="628" maxMicrosecondsPerInvocation="12312" standardDeviationMircosecondsPerInvocation="2118"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="16" invocations="17" avgMicrosecondsPerInvocation="951" maxMicrosecondsPerInvocation="10026" standardDeviationMircosecondsPerInvocation="2336"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="15" invocations="17" avgMicrosecondsPerInvocation="926" maxMicrosecondsPerInvocation="7995" standardDeviationMircosecondsPerInvocation="1924"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

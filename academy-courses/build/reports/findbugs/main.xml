@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1553913406555" analysisTimestamp="1553913406578" release="">
+  <Project projectName="">
+    <Jar>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-courses/build/classes/java/main</Jar>
+    <AuxClasspathEntry>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-courses-interface/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.0.3.RELEASE/d6fd9778619ab87a41ae3aa879a53ee60f160c08/spring-webmvc-4.0.3.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-shared/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.0.3.RELEASE/4d5066f31ea4b9c58957bf8c0c213b13ed44c1c5/spring-web-4.0.3.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.0.3.RELEASE/782a71a312dc307fa531023aa66247b9b4a109d/spring-context-4.0.3.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.0.3.RELEASE/dcedf5329d7092d66cc9d2496687a5f29d883eb6/spring-aop-4.0.3.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.0.3.RELEASE/41eabd53fd4ba5ba2b2d8af6c256a3741f65c2f3/spring-beans-4.0.3.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.0.3.RELEASE/40b25b3a693cb4cc382ddf2e69ff1b29c75a2e7d/spring-expression-4.0.3.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.0.3.RELEASE/138d28200d97f4affe9ccaa47fab54718b438319/spring-core-4.0.3.RELEASE.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/.gradle/caches/modules-2/files-2.1/aopalliance/aopalliance/1.0/235ba8b489512805ac13a8f9ea77a1ca5ebe3e8/aopalliance-1.0.jar</AuxClasspathEntry>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-courses/src/main/java/com/denofprogramming/controller/CourseController.java</SrcDir>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-courses/src/main/java/com/denofprogramming/service/CourseService.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 29 Mar 2019 19:36:46 -0700" total_classes="2" referenced_classes="22" total_bugs="0" total_size="34" num_packages="2" java_version="1.8.0_202" vm_version="25.202-b05" cpu_seconds="5.19" clock_seconds="1.15" peak_mbytes="108.50" alloc_mbytes="455.50" gc_seconds="0.02">
+    <PackageStats package="com.denofprogramming.controller" total_bugs="0" total_types="1" total_size="17">
+      <ClassStats class="com.denofprogramming.controller.CourseController" sourceFile="CourseController.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.denofprogramming.service" total_bugs="0" total_types="1" total_size="17">
+      <ClassStats class="com.denofprogramming.service.CourseService" sourceFile="CourseService.java" interface="false" size="17" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="196" invocations="341" avgMicrosecondsPerInvocation="576" maxMicrosecondsPerInvocation="4193" standardDeviationMircosecondsPerInvocation="359"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="157" invocations="338" avgMicrosecondsPerInvocation="465" maxMicrosecondsPerInvocation="14163" standardDeviationMircosecondsPerInvocation="1147"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="52" invocations="22" avgMicrosecondsPerInvocation="2371" maxMicrosecondsPerInvocation="17598" standardDeviationMircosecondsPerInvocation="4361"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="40" invocations="12" avgMicrosecondsPerInvocation="3410" maxMicrosecondsPerInvocation="39073" standardDeviationMircosecondsPerInvocation="10756"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="35" invocations="75" avgMicrosecondsPerInvocation="477" maxMicrosecondsPerInvocation="3135" standardDeviationMircosecondsPerInvocation="651"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="27" invocations="306" avgMicrosecondsPerInvocation="91" maxMicrosecondsPerInvocation="1278" standardDeviationMircosecondsPerInvocation="169"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="27" invocations="22" avgMicrosecondsPerInvocation="1238" maxMicrosecondsPerInvocation="7041" standardDeviationMircosecondsPerInvocation="1948"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="26" invocations="41" avgMicrosecondsPerInvocation="636" maxMicrosecondsPerInvocation="15140" standardDeviationMircosecondsPerInvocation="2371"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.NoteDirectlyRelevantTypeQualifiers" totalMilliseconds="19" invocations="22" avgMicrosecondsPerInvocation="869" maxMicrosecondsPerInvocation="6218" standardDeviationMircosecondsPerInvocation="1575"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="16" invocations="22" avgMicrosecondsPerInvocation="750" maxMicrosecondsPerInvocation="7394" standardDeviationMircosecondsPerInvocation="1694"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildObligationPolicyDatabase" totalMilliseconds="16" invocations="22" avgMicrosecondsPerInvocation="731" maxMicrosecondsPerInvocation="3969" standardDeviationMircosecondsPerInvocation="1155"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="15" invocations="12" avgMicrosecondsPerInvocation="1269" maxMicrosecondsPerInvocation="6786" standardDeviationMircosecondsPerInvocation="1895"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.OverridingEqualsNotSymmetrical" totalMilliseconds="15" invocations="22" avgMicrosecondsPerInvocation="691" maxMicrosecondsPerInvocation="7698" standardDeviationMircosecondsPerInvocation="1636"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

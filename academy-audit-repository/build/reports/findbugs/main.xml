@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="0" timestamp="1553913404234" analysisTimestamp="1553913404260" release="">
+  <Project projectName="">
+    <Jar>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-audit-repository/build/classes/java/main</Jar>
+    <AuxClasspathEntry>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-audit-interface/build/classes/java/main</AuxClasspathEntry>
+    <AuxClasspathEntry>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-shared/build/classes/java/main</AuxClasspathEntry>
+    <SrcDir>/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-audit-repository/src/main/java/com/denofprogramming/repository/AuditRepository.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 29 Mar 2019 19:36:44 -0700" total_classes="1" referenced_classes="12" total_bugs="0" total_size="9" num_packages="1" java_version="1.8.0_202" vm_version="25.202-b05" cpu_seconds="4.39" clock_seconds="0.99" peak_mbytes="172.87" alloc_mbytes="455.50" gc_seconds="0.02">
+    <PackageStats package="com.denofprogramming.repository" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="com.denofprogramming.repository.AuditRepository" sourceFile="AuditRepository.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="176" invocations="297" avgMicrosecondsPerInvocation="593" maxMicrosecondsPerInvocation="14471" standardDeviationMircosecondsPerInvocation="1318"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="163" invocations="298" avgMicrosecondsPerInvocation="547" maxMicrosecondsPerInvocation="2268" standardDeviationMircosecondsPerInvocation="289"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="59" invocations="5" avgMicrosecondsPerInvocation="11825" maxMicrosecondsPerInvocation="58711" standardDeviationMircosecondsPerInvocation="23443"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="35" invocations="12" avgMicrosecondsPerInvocation="2987" maxMicrosecondsPerInvocation="15279" standardDeviationMircosecondsPerInvocation="4883"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="33" invocations="265" avgMicrosecondsPerInvocation="125" maxMicrosecondsPerInvocation="1223" standardDeviationMircosecondsPerInvocation="207"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="29" invocations="38" avgMicrosecondsPerInvocation="769" maxMicrosecondsPerInvocation="3377" standardDeviationMircosecondsPerInvocation="775"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="23" invocations="12" avgMicrosecondsPerInvocation="1937" maxMicrosecondsPerInvocation="12682" standardDeviationMircosecondsPerInvocation="3539"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="22" invocations="25" avgMicrosecondsPerInvocation="916" maxMicrosecondsPerInvocation="13847" standardDeviationMircosecondsPerInvocation="2754"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

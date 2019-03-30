@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2019-03-29T19:40:37.936">
+<file name="/Users/sheffmachine/Projects/gradle-apps/gradle-teaching-academy/academy-audit-repository/src/main/java/com/denofprogramming/repository/AuditRepository.java">
+<violation beginline="5" endline="19" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" package="com.denofprogramming.repository" class="AuditRepository" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="5" endline="19" begincolumn="8" endcolumn="1" rule="CommentRequired" ruleset="Documentation" package="com.denofprogramming.repository" class="AuditRepository" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_documentation.html#commentrequired" priority="3">
+Header comments are required
+</violation>
+<violation beginline="8" endline="8" begincolumn="33" endcolumn="56" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.denofprogramming.repository" class="AuditRepository" method="read" variable="domainObject" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'domainObject' is not assigned and could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="35" endcolumn="58" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="com.denofprogramming.repository" class="AuditRepository" method="update" variable="domainObject" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'domainObject' is not assigned and could be declared final
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
